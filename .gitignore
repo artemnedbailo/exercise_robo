@@ -1,4 +1,4 @@
 .idea
 venv
-reports/*
-pages
+Reports
+*/__pycache__

@@ -8,7 +8,7 @@ def func(c):
     :param c:
     :return:
     """
-    c.run("robot -d reports tests/functional/")
+    c.run("robot -d Reports tests/functional/")
 
 
 @task
