@@ -20,9 +20,9 @@ Test create workspace
     SignInPage.Sign In With Valid Credentials
     Headers.Open Spaces
     Wait Until Page Contains Element  ${TEXT_YOUR_SPACE}
-    AllUserSpacesPage.Open Create Public Space Page
+    AllUserSpacesPage.Open Exist Or Create New Space
     Wait Until Page Contains Element  ${INPUT_SPACE_NAME_FIELD}
     UserSpacePage.Input Text And Save Space
-    UserSpacePage.Assert Space Successfully Created
+    UserSpacePage.Open Context Menu And Delete Space
 
 *** Keywords ***

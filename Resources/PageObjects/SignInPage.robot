@@ -6,7 +6,7 @@ Variables  ../Locators.py
 *** Variables ***
 
 *** Keywords ***
-Input Valid Credentionals
+Sign In With Valid Credentials
     Input Text  ${INPUT_NAME_FIELD}  ${VALID_USERNAME}
     Input Text  ${INPUT_PASSWORD_FIELD}  ${VALID_PASSWORD}
     Click Element  ${SIGN_IN_BUTTON}
