@@ -14,8 +14,9 @@ Version of Python is `3.8`
 
 ### Setup the project
 
-1. Create virtual enviroment.
-2. If you have installed already `invoke` use the following command:
+1. Create virtual environment.
+2. Activate virlual environment
+3. If you have installed already `invoke` use the following command:
 
 ```
 invoke setup

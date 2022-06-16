@@ -6,3 +6,4 @@ Variables  ../Locators.py
 Open Spaces
     Click Element  ${TITLE}
     Click Element  ${SPACE_PAGE}
+    Wait Until Page Contains Element  ${TITLE_SPACES}

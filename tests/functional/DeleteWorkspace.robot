@@ -19,7 +19,6 @@ Test create workspace
     MainPage.Open Sign In Page
     SignInPage.Sign In With Valid Credentials
     Headers.Open Spaces
-    Wait Until Page Contains Element  ${TEXT_YOUR_SPACE}
     AllUserSpacesPage.Open Exist Or Create New Space
     Wait Until Page Contains Element  ${INPUT_SPACE_NAME_FIELD}
     UserSpacePage.Input Text And Save Space
